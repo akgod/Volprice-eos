@@ -1,0 +1,4 @@
+1 先运行getsymbol.js 获取所有交易对symbol,存入symbol.json
+2 运行symprecision.js 获取交易对下单精度,存入redis
+3 运行setavg 实时把相关数据存入redis
+4 运行ws 
